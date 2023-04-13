@@ -1,6 +1,8 @@
 class Vehicle{
     constructor (make, model, year){
-        const {make, model, year} = this;
+        this.make = make;
+        this.model = model;
+        this.year = year;
     }
 
     honk(){
